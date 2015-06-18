@@ -8,8 +8,9 @@
    * @param {string} word - search word
    */
   function kmp(s, w) {
-    if (!(kmp.isString(s) || kmp.isArray(s))) return -1;
     if (kmp.isNumber(w)) w = ''+w;
+    if (kmp.isNumber(s)) s = ''+s;
+    if (!(kmp.isString(s) || kmp.isArray(s))) return -1;
     if (!(kmp.isString(w) || kmp.isArray(w))) return -1;
     var m = 0; // start of s
     var i = 0; // start of w
