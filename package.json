@@ -1,6 +1,6 @@
 {
   "name": "kmp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Knuth-Morris-Pratt string searching algorithm.",
   "main": "kmp.js",
   "directories": {
