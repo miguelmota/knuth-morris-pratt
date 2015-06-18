@@ -2,7 +2,7 @@
   "name": "kmp",
   "main": "kmp.js",
   "version": "0.0.1",
-  "homepage": "https://github.com/miguelmota/kmp",
+  "homepage": "https://github.com/miguelmota/knuth-morris-pratt",
   "authors": [
     "Miguel Mota <miguelmota2@gmail.com>"
   ],

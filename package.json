@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/miguelmota/kmp"
+    "url": "https://github.com/miguelmota/knuth-morris-pratt"
   },
   "keywords": [
     "string",
@@ -29,12 +29,12 @@
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/miguelmota/kmp/blob/master/LICENSE.md"
+    "url": "https://github.com/miguelmota/knuth-morris-pratt/blob/master/LICENSE.md"
   },
   "bugs": {
-    "url": "https://github.com/miguelmota/kmp/issues"
+    "url": "https://github.com/miguelmota/knuth-morris-pratt/issues"
   },
-  "homepage": "https://github.com/miguelmota/kmp",
+  "homepage": "https://github.com/miguelmota/knuth-morris-pratt",
   "devDependencies": {
     "tape": "^3.0.3"
   },
