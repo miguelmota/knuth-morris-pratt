@@ -4,7 +4,7 @@
   /**
    * kmp
    * @desc Search for occurances of word in string.
-   * @param {string} string - corpus
+   * @param {string} string - text string
    * @param {string} word - search word
    */
   function kmp(s, w) {
@@ -36,7 +36,7 @@
   }
 
   /**
-   * kmpTable
+   * table
    * @desc Returns "Partial match" table
    * @param {string} word - search word
    */
@@ -80,7 +80,7 @@
   };
 
   kmp.isNumber = function(v) {
-    return !NaN;
+    return !isNaN(v);
   };
 
   if (typeof exports !== 'undefined') {

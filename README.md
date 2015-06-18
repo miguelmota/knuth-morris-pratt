@@ -19,8 +19,8 @@ bower install kmp
 ```javascript
 var kmp = require('kmp');
 
-console.log(kmp('she sells seashells by the seashore', 'seaweed')); // -1
 console.log(kmp('she sells seashells by the seashore', 'shell')); // 13
+console.log(kmp('she sells seashells by the seashore', 'seaweed')); // -1
 ```
 
 # Test
