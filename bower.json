@@ -1,0 +1,24 @@
+{
+  "name": "kmp",
+  "main": "kmp.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/miguelmota/kmp",
+  "authors": [
+    "Miguel Mota <miguelmota2@gmail.com>"
+  ],
+  "description": "Knuth-Morris-Pratt string searching algorithm.",
+  "keywords": [
+    "string",
+    "search",
+    "algorithm",
+    "indexof"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "kmp",
+  "version": "0.0.1",
+  "description": "Knuth-Morris-Pratt string searching algorithm.",
+  "main": "kmp.js",
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "kmp.js"
+  ],
+  "scripts": {
+    "test": "./node_modules/tape/bin/tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/kmp"
+  },
+  "keywords": [
+    "string",
+    "search",
+    "algorithm",
+    "indexof"
+  ],
+  "author": {
+    "name": "Miguel Mota",
+    "email": "hello@miguelmota.com",
+    "url": "http://www.miguelmota.com/"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/miguelmota/kmp/blob/master/LICENSE.md"
+  },
+  "bugs": {
+    "url": "https://github.com/miguelmota/kmp/issues"
+  },
+  "homepage": "https://github.com/miguelmota/kmp",
+  "devDependencies": {
+    "tape": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
